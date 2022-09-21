@@ -1,0 +1,170 @@
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 0;
+}
+
+.container-fluid{
+    padding: 3% 15% 8%;
+}
+
+/* Tital Image */
+.Dog-image{
+    width: 23%;
+
+    /* for rotating dog image in website */
+    transform: rotate(30deg);
+    position: absolute;
+    right: 25%;
+}
+
+@media (max-width: 1000px){
+    .Dog-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+.download-button{
+    margin: 7% 4% 5% 0;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.6rem;
+    line-height: 1.5;
+}
+
+/* NavBar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}   
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+/* Features Section */
+
+#features-section{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+p{
+    color: gray;
+}
+
+.images{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+:hover.images{
+    color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logos{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing list */
+#pricing{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.btn-pricing{
+    width: 70%;
+}
+
+.price-list{
+    margin-top: 60px;
+}
+
+/* contact section */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cont-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.bottom-btn{
+    margin-top: 8px;
+}
+
+/* Footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
